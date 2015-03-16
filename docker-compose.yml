@@ -1,0 +1,6 @@
+web:
+  build: apache/
+  volumes:
+   - ./:/var/www/html:rw
+  ports:
+   - "8000:80"

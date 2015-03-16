@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="301.18109"
+   height="194.88188"
+   id="svg3889"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="simple_back_en.svg">
+  <defs
+     id="defs3891" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="$PRIMARY$"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="69.231099"
+     inkscape:cy="112.82896"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="mm"
+     inkscape:window-width="1600"
+     inkscape:window-height="839"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3817"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3894">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-857.4803)">
+    <rect
+       style="fill:$PRIMARY$;fill-opacity:1;stroke:none"
+       id="rect3204"
+       x="0"
+       y="857.48029"
+       height="194.8819"
+       width="301.18109" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:$SECONDARY$;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+       x="9.9902725"
+       y="1041.1512"
+       id="text3210"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3212"
+         x="9.9902725"
+         y="1041.1512"
+         style="font-size:10px;text-align:start;text-anchor:start;fill:$SECONDARY$;fill-opacity:1">/$SEED$/$PATTERN$/</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3207"
+       y="1029.4025"
+       x="242.0994"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:$SECONDARY$;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;fill:$SECONDARY$;fill-opacity:1"
+         y="1029.4025"
+         x="242.0994"
+         id="tspan3209"
+         sodipodi:role="line" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3766"
+       y="1039.33"
+       x="236.00528"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:$SECONDARY$;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+       xml:space="preserve"><tspan
+         style="font-size:10px;text-align:center;text-anchor:middle;fill:$SECONDARY$;fill-opacity:1"
+         y="1039.33"
+         x="236.00528"
+         id="tspan3768"
+         sodipodi:role="line">http://raphael.li/pwcard</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3808"
+       y="947.46991"
+       x="150.53195"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;word-spacing:0px;fill:$PRIMARY$;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan3812"
+         style="font-weight:bold;-inkscape-font-specification:'Open Sans Bold';text-align:center;text-anchor:middle;fill:$SECONDARY$;fill-opacity:1"
+         y="947.46991"
+         x="150.53195"
+         sodipodi:role="line">$TEXT$</tspan></text>
+  </g>
+</svg>

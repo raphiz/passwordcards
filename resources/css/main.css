@@ -1,0 +1,69 @@
+.header {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.configure {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#advancedOptionsLabel {
+    color:#1EAEDB;
+    cursor: pointer;
+}
+#advancedOptions {
+    display: none;
+}
+
+#hideMoreOptions {
+    display: none;
+}
+.hidden,
+input.hidden{
+    display: none;
+    visibility: hidden;
+}
+
+#with-numbers:checked + .label-with-numbers,
+#with-lower:checked + .label-with-lower,
+#with-upper:checked + .label-with-upper,
+#with-symbols:checked + .label-with-symbols,
+#with-space:checked + .label-with-space,
+#with-other:checked + .label-with-other
+{
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0;
+}
+
+.tooltip{
+   	display: inline-block;
+	position: relative;
+}
+
+.tooltip:hover:after{
+	background: #333;
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+	bottom: 46px;
+	color: #fff;
+	content: attr(title);
+    text-transform: none;
+	left: 20%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+	width: 220px;
+}
+
+.tooltip:hover:before{
+	border: solid;
+	border-color: #333 transparent;
+	border-width: 6px 6px 0 6px;
+	bottom: 40px;
+	content: "";
+	left: 50%;
+	position: absolute;
+	z-index: 99;
+}
