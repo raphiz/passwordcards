@@ -4,16 +4,23 @@ namespace raphiz\passwordcards;
 require_once 'vendor/autoload.php';
 use \Rain\Tpl;
 
+Tpl::configure(
+    array(
+        "tpl_dir" => __DIR__ . "/resources/",
+    )
+);
+
 if (!RequestUtils::isPost()) {
-    // Render template
-    Tpl::configure(
-        array(
-            "tpl_dir" => __DIR__ . "/resources/",
-        )
-    );
     $tpl = new Tpl;
     $tpl->draw('index');
 } else {
+    $spamPrevention = RequestUtils::preventSpam();
+    if ($spamPrevention !== true) {
+        $tpl = new Tpl;
+        $tpl->assign('seconds', $spamPrevention);
+        $tpl->draw('spam');
+        exit;
+    }
     // Parse request
     $pattern = RequestUtils::parsePattern();
     $keyboardLayout = RequestUtils::parseKeyboardLayout();
@@ -50,4 +57,5 @@ if (!RequestUtils::isPost()) {
     // Cleanup temporary SVG images
     unlink($back);
     unlink($front);
+
 }

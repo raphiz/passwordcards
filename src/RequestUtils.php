@@ -8,6 +8,45 @@ class RequestUtils
         return $_SERVER['REQUEST_METHOD'] == "POST";
     }
 
+    public static function preventSpam()
+    {
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $blacklistfile = __DIR__ . '/../blacklist/' . $ip;
+        $count = 0;
+        $creationDate = 0;
+        if (file_exists($blacklistfile)) {
+            $contents = (int)file_get_contents($blacklistfile);
+            // If the stored value is big, it's the unix timestamp.
+            // Otherwise it's the amount of created cards.
+            if ($contents > 5) {
+                $creationDate = $contents;
+            } else {
+                $count = $contents;
+            }
+        }
+
+
+        if ($creationDate > 0) {
+            // If blocked time is over, release lock
+            if ($creationDate - time() < 0) {
+                file_put_contents($blacklistfile, 0);
+            } else {
+                return $creationDate - time();
+            }
+        }
+
+        if ($count === 5) {
+            // Write unix timestamp into the blacklist file. The
+            // ip is blocked till then.
+            file_put_contents($blacklistfile, time() + 5*60);
+        } else {
+            // increment count...
+            file_put_contents($blacklistfile, ($count+1));
+        }
+
+        return true;
+    }
+
     public static function parseSeed()
     {
         if (
