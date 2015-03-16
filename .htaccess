@@ -1,0 +1,5 @@
+# Only allow access to /index.php and /resources directory
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/index.php$|resources/
+RewriteRule ^(.*)$ / [L,R=301]
