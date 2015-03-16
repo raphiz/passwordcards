@@ -6,8 +6,10 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/raphiz/passwordcards/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/raphiz/passwordcards/?branch=master)
 [![Code Climate](https://codeclimate.com/github/raphiz/passwordcards/badges/gpa.svg)](https://codeclimate.com/github/raphiz/passwordcards)
 [![Test Coverage](https://codeclimate.com/github/raphiz/passwordcards/badges/coverage.svg)](https://codeclimate.com/github/raphiz/passwordcards)
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+
+This tool allows you to generate customized password cards in the spirit of Qwertycards.com.
+
+If you like the concept, please buy a card from their website.
 
 ## Contributing
 
