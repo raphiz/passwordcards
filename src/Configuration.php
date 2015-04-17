@@ -57,7 +57,7 @@ class Configuration
      */
     public static function evalSeed($seed)
     {
-        if ($seed == null || !is_numeric($seed)) {
+        if ($seed === null || !is_numeric($seed)) {
             list($usec, $sec) = explode(' ', microtime());
             $seed = (float) $sec + ((float) $usec * 100000);
         }
@@ -69,7 +69,7 @@ class Configuration
     */
     public static function evalPattern($pattern)
     {
-        if ($pattern == null) {
+        if ($pattern === null) {
             $pattern = self::DEFAULT_PATTERN;
         }
         return $pattern;

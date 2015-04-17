@@ -8,11 +8,11 @@ class CardCreator
 
     public function __construct($configration)
     {
-        if ($configration == null) {
+        if ($configration === null) {
             throw new \Exception('The given $configuration is null!');
         }
 
-        if ($configration instanceof Configuration == false) {
+        if ($configration instanceof Configuration === false) {
             throw new \Exception(
                 'The given $configuration is not a valid ' .
                 'Configuration object.'
