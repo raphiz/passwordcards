@@ -42,7 +42,8 @@ class CardCreator
         $seed = $this->configration->seed;
         mt_srand($seed);
 
-        for ($i = 0; $i < strlen($this->configration->keys); $i++) {
+        $number_of_keys = strlen($this->configration->keys);
+        for ($i = 0; $i < $number_of_keys; $i++) {
             $prefix = '$' . ($i+1);
             $equivalent = $chars[mt_rand(0, $char_count-1)];
 
