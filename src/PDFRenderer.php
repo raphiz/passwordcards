@@ -26,20 +26,20 @@ class PDFRenderer
 
         // Add the front svg
         $pdf->ImageSVG(
-            $file = $front,
-            $x = 10,
-            $y = 15,
-            $w = '85',
-            $h = '55'
+            $front, // filename
+            10, // x
+            15, // y
+            '85', // width
+            '55' // height
         );
 
         // Add the back svg
         $pdf->ImageSVG(
-            $file = $back,
-            $x = 95,
-            $y = 15,
-            $w = '85',
-            $h = '55'
+            $back, // filename
+            95, // x
+            15, // y
+            '85', // width
+            '55' // height
         );
 
 
