@@ -7,7 +7,7 @@
 [![Code Climate](https://codeclimate.com/github/raphiz/passwordcards/badges/gpa.svg)](https://codeclimate.com/github/raphiz/passwordcards)
 [![Test Coverage](https://codeclimate.com/github/raphiz/passwordcards/badges/coverage.svg)](https://codeclimate.com/github/raphiz/passwordcards)
 [![Dependency Status](https://www.versioneye.com/user/projects/5506fc2766e561bb9b00016e/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5506fc2766e561bb9b00016e)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/6152eda9-0cd1-41a3-84fb-9601d0996a86/mini.png)](https://insight.sensiolabs.com/projects//6152eda9-0cd1-41a3-84fb-9601d0996a86)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/6152eda9-0cd1-41a3-84fb-9601d0996a86/mini.png)](https://insight.sensiolabs.com/projects/6152eda9-0cd1-41a3-84fb-9601d0996a86)
 
 This tool allows you to generate customized password cards in the spirit of Qwertycards.com.
 
