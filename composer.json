@@ -1,5 +1,6 @@
 {
     "name": "raphiz/passwordcards",
+    "description" : "Generate customized password cards in the spirit of Qwertycards.com",
     "require": {
         "tecnick.com/tcpdf": "6.2.8",
         "rain/raintpl": "3.1.0"

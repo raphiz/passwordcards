@@ -8,11 +8,11 @@ class CardCreator
 
     public function __construct($configration)
     {
-        if ($configration == null) {
+        if ($configration === null) {
             throw new \Exception('The given $configuration is null!');
         }
 
-        if ($configration instanceof Configuration == false) {
+        if ($configration instanceof Configuration === false) {
             throw new \Exception(
                 'The given $configuration is not a valid ' .
                 'Configuration object.'
@@ -42,8 +42,8 @@ class CardCreator
         $seed = $this->configration->seed;
         mt_srand($seed);
 
-        for ($i = 0; $i < strlen($this->configration->keys); $i++) {
-            $prefix = '$' . ($i+1);
+        $number_of_keys = strlen($this->configration->keys);
+        for ($i = 0; $i < $number_of_keys; $i++) {
             $equivalent = $chars[mt_rand(0, $char_count-1)];
 
             $equivalent = $this->escape($equivalent);
