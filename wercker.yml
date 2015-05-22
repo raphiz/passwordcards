@@ -1,0 +1,9 @@
+box: raphiz/drone-php:5.5.20
+build:
+    steps:
+      - script:
+          name: install dependencies
+          code: composer install --no-interaction --prefer-source
+      - script:
+          name: run unit tests
+          code: composer test
