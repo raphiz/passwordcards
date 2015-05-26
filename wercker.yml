@@ -7,3 +7,8 @@ build:
       - script:
           name: run unit tests
           code: composer test
+deploy:
+    steps:
+        - script:
+            name: Deploying...
+            code: deploy.sh
