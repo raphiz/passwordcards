@@ -11,4 +11,4 @@ deploy:
     steps:
         - script:
             name: Deploying...
-            code: deploy.sh
+            code: bash deploy.sh
