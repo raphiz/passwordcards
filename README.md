@@ -2,7 +2,7 @@
 
 [![Latest Version](https://img.shields.io/github/release/raphiz/passwordcards.svg?style=flat-square)](https://github.com/raphiz/passwordcards/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/raphiz/passwordcards/master.svg?style=flat-square)](https://travis-ci.org/raphiz/passwordcards)
+[![wercker status](https://app.wercker.com/status/6bb146084db30e23f4d09b20a32ac058/s "wercker status")](https://app.wercker.com/project/bykey/6bb146084db30e23f4d09b20a32ac058)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/raphiz/passwordcards/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/raphiz/passwordcards/?branch=master)
 [![Code Climate](https://codeclimate.com/github/raphiz/passwordcards/badges/gpa.svg)](https://codeclimate.com/github/raphiz/passwordcards)
 [![Test Coverage](https://codeclimate.com/github/raphiz/passwordcards/badges/coverage.svg)](https://codeclimate.com/github/raphiz/passwordcards)
@@ -25,4 +25,3 @@ If you discover any security related issues, please email mister.norbert ät gma
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
