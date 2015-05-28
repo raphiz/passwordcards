@@ -17,6 +17,10 @@ if [ ! -n "$PASSWORD" ];then
     echo  "missing option \"HOST\", aborting"
     exit 1
 fi
+if [ ! -n "$DIRECTORY" ];then
+    echo  "missing option \"DIRECTORY\", aborting"
+    exit 1
+fi
 if [ ! -n "$IGNORE" ];then
     IGNORE=''
 fi
